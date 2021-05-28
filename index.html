@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    <title>Checkout Page</title> 
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1> 
+    </header>
+    <section>
+        <div id="left-sec">
+                <div class="fieldset">
+                   <legend> <h3> Contact Information</h3></legend>
+    
+                    <label>
+                         <h6>  Email </h6>
+                         <i class="fas fa-envelope icon"></i>
+                         <input type="email" name="email" class="icons" placeholder=" Enter your email..." required>
+                   </label>
+                   <label>
+                      <h6>Phone</h6>
+                      <i class="fas fa-phone-alt"></i>
+                      <input type="number" name="phone-no" placeholder="Enter your phone...">
+                  </label>
+                </div>
+            
+                <div class="fieldset">
+                 <legend> <h3>Shipping address</h3></legend>
+                 <label>
+                    <h6>Full Name </h6>
+                    <i class="fas fa-user-circle"></i>
+                    <input type="text" name="name" placeholder="Enter your full name...">
+                 </label>
+                  <label>
+                    <h6>Address</h6>
+                    <i class="fas fa-home"></i>
+                    <input type="text" name="address" placeholder="Your address...">
+                 </label>
+                  <label>
+                    <h6>City</h6>
+                    <i class="fas fa-city"></i>
+                    <input type="text" name="city" placeholder="Your city...">
+                  </label>
+                      <div class="cou-sec">
+                  <label id="country" >
+                    <h6>Country</h6>
+                    <i class="fas fa-globe-americas"></i>
+                    <select name="country" >
+                    <option value="0" selected> <span> Your Country...</span> </option>
+                    <option value="India"> <h6>India</h6> </option>
+                    <option value="Sri-Lanka"> <h6>Sri-Lanka</h6> </option>
+                    <option value="Bhutan"> <h6>Bhutan</h6> </option>
+                    <option value="Nepal"> <h6>Nepal</h6> </option>
+                    </select>
+                  </label>
+                 <label id="postalcode">
+                    <h6>Postal code</h6>
+                    <i class="fas fa-square"></i>
+                    <input type="number" name="postal-code" placeholder="Your Postal code">
+                 </label>              
+                </div>
+                    <input type="checkbox" name="save-inform" value="save-inform"> 
+                    <p>Save this information for next time </p>
+                </div>
+                <a href="index.html">Continue</a>
+        </div>
+
+        <div id="right-sec">
+            <div class="item-section">
+               <div class="item">
+                    <div class="imge-sec">
+                    <img src="photo1.png" alt="Vintage Backbag">
+                    </div>
+                    <div>
+                    <h5>Vintage Backbag</h5>
+                    <span class="price">$54.99</span> <span class="prev-price">$94.99</span>
+                    <div class="no-of-items">
+                        <i class="fas fa-minus-square"></i>1 <i class="fas fa-plus-square"></i>
+                    </div> 
+                    </div>
+               </div>
+            
+               <div class="item item2">
+                   <div class="imge-sec">
+                    <img src="photo2.png" alt="Levi shoes">
+                   </div>
+                    <div>
+                    <h5>Levi shoes</h5>
+                    <span class="price">$54.99</span> <span class="prev-price">$94.99</span>
+                    <div class="no-of-items">
+                        <i class="fas fa-minus-square"></i>1 <i class="fas fa-plus-square"></i>
+                    </div>
+                    </div>
+               </div>
+            </div>
+            <div class="sec3">
+                <span> Shipping</span> <span class="amount">$19</span>
+            </div>
+            <div class="sec3">
+                <span> Total</span> <span class="amount">$148.98</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Created by Thushar - devChallenges.io
+    </footer>
+</body>
+</html>

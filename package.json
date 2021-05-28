@@ -1,0 +1,19 @@
+{
+  "name": "proj3",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mountblue/mbc-js-16-1-checkout-page-Thushar12E45.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mountblue/mbc-js-16-1-checkout-page-Thushar12E45/issues"
+  },
+  "homepage": "https://github.com/mountblue/mbc-js-16-1-checkout-page-Thushar12E45#readme"
+}

@@ -1,0 +1,268 @@
+
+body
+{   
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header part */
+header
+{
+    padding: 0 10px;
+}
+
+/* Section part */
+section
+{
+    flex: 1;
+    display: flex;
+    padding: 0%;
+    height: 90vh;
+}
+/* left side */
+.fieldset
+{
+    border: none;
+    margin-top: 0.7em;
+    display: block;
+}
+h6,h3,h5,.country1>label
+{
+    margin: 0;
+}
+#left-sec
+{ 
+    width: 40%;
+    height:80vh;
+    margin-right: 50px;
+}
+#left-sec label
+{
+    display: block;
+    font-weight: bold;
+    margin-top: 0.4em;  
+}
+
+#left-sec input[type='text'] ,#left-sec input[type='number'],#left-sec input[type='email'],#left-sec select 
+{
+
+        background: #fff;
+        border: 1px solid #c6c7cc;
+        color: #636466;
+        padding: 0.75em 0.5em;
+        padding-left: 30px;
+        margin-top: 0.5px;
+        width: 100%;
+        border-radius: 0.5em;
+        font-size: 0.7em;
+}
+#left-sec i 
+{
+    position: absolute;
+    color: gray;
+    font-size: 12px;
+    margin: 10px;
+}
+select
+{   
+    padding:0   ;
+    height: 2.8em;
+}
+option { margin:0}
+#country
+{
+    width: 46%;
+}
+#postalcode
+{
+    
+    width: 46%;
+}
+.cou-sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+input[type='checkbox']
+{
+    margin-top:0.5em;
+    padding: 0;
+}
+p
+{ 
+    font-size: 0.75em;
+    display: inline;
+    color: #636466;
+}
+a
+{
+    text-decoration: none;
+    background-color: #F2994A;
+    color: white;
+    float: right;
+    padding: 0.625em 1.5em;
+    display: block;
+    border-radius: 0.5em;
+}
+/* Right Sec */
+#right-sec
+{
+    margin-top: 4vh;
+    width: 20vw;
+    min-width: 220px;
+    height: 25vw;
+    max-height: 300px;
+    background-color: #F2F2F2;
+    border-radius: 0.5em;
+    padding: 1em;
+    color: #636466;
+    font-size: 0.8em;
+}
+.item-section
+{ 
+    height: 80%;
+}
+
+.item
+{   
+    width: 100%;
+    height: 35%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.imge-sec
+{
+    width: 40%;
+    height: 100%;
+}
+img
+{
+    object-fit: contain;
+    height: 100%;
+    border-radius: 0.5em;
+}
+.price
+{
+    font-size: 0.8em;
+    color: #F2994A;
+}
+.prev-price
+{
+    text-decoration: line-through;
+    font-size: 0.6em;
+}
+.sec3
+{
+    border-top:1px solid #BDBDBD;
+    padding: 0.5em;
+    color:rgb(94, 94, 94);
+}
+.amount { float: right;}
+
+.no-of-items
+{   
+     margin-top:0.5em;
+    width: 7em;
+    padding: 0.5em;
+    border: 0.0625em solid #c6c7cc;
+    border-radius: 0.5em;
+    font-size: 1em;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+}
+.no-of-items>i
+{
+    color: grey;
+}
+
+/* footer part */
+
+footer
+{
+    width: 100%;
+    font-size: 0.6em;
+    color: #636466;
+    display: flex;
+    justify-content: space-around;
+}
+/* Fonts */
+h1
+{
+    font-size: 1.4em;
+}
+h3
+{
+    font-size: 0.8em;
+    color:#333333;
+}
+h6
+{
+    font-size: 0.6em;
+    color: #636466;
+}
+h5
+{
+    font-size: 1em;
+}
+
+@media all and (min-width:641px) and (max-width:1007px)
+{
+    body 
+    {
+        width: 90vw;
+    }
+    #right-sec
+    {
+        width: 220px;
+        height: 250px;
+    }
+    p
+    { 
+        font-size: 0.65em;
+        display: inline;
+        color: #636466;
+    }
+}
+@media all and (max-width:641px)
+{
+    body 
+    {
+        width: 100vw;
+        margin-left: 0.5em;
+    }
+    section 
+    {
+        flex-direction: column-reverse;
+    }
+    #left-sec
+    {
+        height: 60%;
+        width: 95%;
+        max-width: 350px;
+        min-width: 200px;
+        border: 1px sollid black;
+    }
+    #right-sec
+    {
+        margin-top: 1vh;
+        width: 95%;
+        max-width: 350px;
+        min-width: 200px;
+        height: 40%;
+        background-color: #F2F2F2;
+        border-radius: 0.5em;
+        font-size: 0.9em;
+    }
+    fieldset
+    {
+        padding: 0%;
+    }
+    .item
+    {
+        height: 40%;
+    }
+}
